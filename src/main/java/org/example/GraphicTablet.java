@@ -1,5 +1,7 @@
 package org.example;
+import org.springframework.stereotype.Component;
 
+@Component("graphicTablet")
 public class GraphicTablet implements Device {
     @Override
     public String getName(){
